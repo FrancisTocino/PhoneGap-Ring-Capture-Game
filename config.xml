@@ -15,6 +15,5 @@
 
     <plugin name="cordova-plugin-device-motion" spec="1.2.3" />
     <plugin name="cordova-plugin-media" spec="2.4.1" />
-    <plugin name="cordova-plugin-crosswalk-webview" spec="2.1.0" />
 
 </widget>
