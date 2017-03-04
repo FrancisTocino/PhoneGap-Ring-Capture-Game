@@ -8,13 +8,10 @@
         @ Francis Tocino
     </author>
     <content src="index.html" />
-<<<<<<< HEAD
+
     <plugin name="cordova-plugin-device-motion" spec="1.2.3" />
     <plugin name="cordova-plugin-media" spec="2.4.1" />
-=======
-   <plugin name="cordova-plugin-device-motion" spec="1.2.3" />
-   <plugin name="cordova-plugin-media" spec="2.4.1" />
->>>>>>> 3fa00cb222fd75cb5a9b54a248cbf7ad8ac3ac47
+
     <access origin="*" />
     <preference name="orientation" value="portrait" />
     <engine name="android" spec="~6.0.0" />
