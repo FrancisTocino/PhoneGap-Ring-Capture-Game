@@ -138,7 +138,6 @@ var app={
                     explode.play();
                     puntuacion = puntuacion-2;     
                     scoreText.text = 'Score: '+puntuacion;
-                    var myVar = setInterval(function(){ setColor() }, 300);
                     if (puntuacion <= -200){
                       alert('SORRY YOU LOSE !!! Score under -200 ');
                       cantidadanillos =5
@@ -251,6 +250,7 @@ var app={
 
 if ('addEventListener' in document) {
     document.addEventListener('deviceready', function() {
+        console.log(Media);
         app.inicio();
     }, false);
 }

@@ -7,10 +7,10 @@
     <author email="francistocino@hotmail.com" href="http://www.sugar4brain.com">
         @ Francis Tocino
     </author>
+    <icon density="mdpi" height="57" platform="android" src="/platforms/android/assets/www/assets/player.png" width="57" />
     <content src="index.html" />
     <access origin="*" />
     <preference name="loglevel" value="DEBUG" />
-    <preference name="orientation" value="portrait" />
     <preference name="webView" value="org.crosswalk.engine.XWalkWebViewEngine" />
     <preference name="xwalkVersion" value="21+" />
     <preference name="xwalkLiteVersion" value="xwalk_core_library_canary:17+" />
@@ -18,4 +18,5 @@
     <preference name="xwalkMode" value="embedded" />
     <preference name="xwalkMultipleApk" value="true" />
     <preference name="android-minSdkVersion" value="16" />
+    <preference name="orientation" value="portrait" />
 </widget>
