@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Juego Asteroides</name>
+    <description>
+        Juego demostracion para curso de Miriada X
+    </description>
+    <author email="francistocino@hotmail.com" href="http://www.sugar4brain.com">
+        @ Francis Tocino
+    </author>
+    <content src="index.html" />
+<<<<<<< HEAD
+    <plugin name="cordova-plugin-device-motion" spec="1.2.3" />
+    <plugin name="cordova-plugin-media" spec="2.4.1" />
+=======
+   <plugin name="cordova-plugin-device-motion" spec="1.2.3" />
+   <plugin name="cordova-plugin-media" spec="2.4.1" />
+>>>>>>> 3fa00cb222fd75cb5a9b54a248cbf7ad8ac3ac47
+    <access origin="*" />
+    <preference name="orientation" value="portrait" />
+    <engine name="android" spec="~6.0.0" />
+    <plugin name="cordova-plugin-crosswalk-webview" spec="~2.1.0">
+        <variable name="XWALK_VERSION" value="21+" />
+        <variable name="XWALK_LITEVERSION" value="xwalk_core_library_canary:17+" />
+        <variable name="XWALK_COMMANDLINE" value="--disable-pull-to-refresh-effect" />
+        <variable name="XWALK_MODE" value="embedded" />
+        <variable name="XWALK_MULTIPLEAPK" value="true" />
+    </plugin>
+</widget>
