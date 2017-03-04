@@ -15,11 +15,6 @@
 
     <plugin name="cordova-plugin-device-motion" spec="1.2.3" />
     <plugin name="cordova-plugin-media" spec="2.4.1" />
-    <plugin name="cordova-plugin-crosswalk-webview" spec="~2.1.0">
-        <variable name="XWALK_VERSION" value="21+" />
-        <variable name="XWALK_LITEVERSION" value="xwalk_core_library_canary:17+" />
-        <variable name="XWALK_COMMANDLINE" value="--disable-pull-to-refresh-effect" />
-        <variable name="XWALK_MODE" value="embedded" />
-        <variable name="XWALK_MULTIPLEAPK" value="true" />
-    </plugin>
+    <plugin name="cordova-plugin-crosswalk-webview" spec="2.1.0" />
+
 </widget>
