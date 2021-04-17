@@ -1,4 +1,4 @@
-# Juego demostracion de las capacidades del acelerometro para el Curso de MiriadaX (android 5+)
+# Demonstration game of the accelerometer capabilities for the MiriadaX Course (android 5+)
 
 ## Usage
 
